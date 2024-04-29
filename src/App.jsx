@@ -8,6 +8,7 @@ import UniqueSection from "./component/Amartya/UniqueSection";
 import FacilitiesSection from "./component/Amartya/FacilitiesSection";
 import HeroSection from "./component/Amartya/HeroSection";
 import Footer from "./component/Amartya/Footer";
+import FreeTestSection from "./component/Amartya/FreeTestSection";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <FacilitiesSection />
         </div>} />
         <Route path="/register" element={<Register />} />
+        <Route path="/about" element={< FreeTestSection/>} />
 
 
       </Routes>

@@ -121,3 +121,96 @@
     height: 1.5rem;
   }
   
+
+
+  /* Add custom styles for the FreeTestSection component */
+
+/* Styling for Advantages of Our Test Section */
+.advantages-section {
+  background-color: #f0f4f8; /* Light gray background */
+}
+
+/* Styling for Testimonials Section */
+.testimonials-section {
+  background-color: #edf2f7; /* Lighter gray background */
+}
+
+.testimonial-card {
+  border: 1px solid #cbd5e0; /* Light border color */
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.testimonial-text {
+  color: #4a5568; /* Dark gray text color */
+}
+
+.testimonial-author {
+  color: #2d3748; /* Dark text color */
+  font-style: italic;
+}
+
+/* Styling for Test Preparation Tips Section */
+.preparation-tips-section {
+  background-color: #f0f4f8; /* Light gray background */
+}
+
+/* Styling for Benefits of Mental Health Assessment Section */
+
+
+/* Styling for Frequently Asked Questions Section */
+.faqs-section {
+  background-color: #f0f4f8; /* Light gray background */
+}
+
+.faq-card {
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for card */
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.faq-question {
+  color: #2d3748; /* Dark text color */
+}
+
+.faq-answer {
+  color: #4a5568; /* Dark gray text color */
+}
+
+/* Styling for Additional Resources Section */
+.resources-section {
+  background-color: #edf2f7; /* Lighter gray background */
+}
+/* Add custom styles for the Test Preparation Tips Section */
+
+.test-preparation-section {
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.test-preparation-text {
+  flex-basis: 50%; /* Set initial width to 50% */
+  padding-right: 1rem; /* Add some spacing between text and image */
+}
+
+.test-preparation-image {
+  flex-basis: 50%; /* Set initial width to 50% */
+  max-width: 50%; /* Limit image width to 50% of container */
+}
+/* Add custom styles for the Benefits of Mental Health Assessment Section */
+
+.benefits-section {
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.benefits-text {
+  flex-basis: 50%; /* Set initial width to 50% */
+  padding-right: 1rem; /* Add some spacing between text and image */
+}
+
+.benefits-image {
+  flex-basis: 50%; /* Set initial width to 50% */
+  max-width: 50%; /* Limit image width to 50% of container */
+}
